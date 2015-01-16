@@ -13,7 +13,9 @@ namespace EventHub_CheckOutput
     {
         static void Main(string[] args)
         {
+            //string eventHubConnectionString = "Endpoint=sb://asadevicereadings.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=xwtI67w1wO2vVFiQ1Iydk/Lcp/baX3R8gf6OehEtD4A=";
             string eventHubConnectionString = "Endpoint=sb://tolldata9373470623.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AOZ9dEfH6ItUqN7M1EvGj7zzMaGVCIYGTNLwQUfafxU=";
+            //string eventHubName = "devicereadings";
             string eventHubName = "entry";
 
 
